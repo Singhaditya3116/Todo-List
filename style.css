@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color:chartreuse;
+}
+.btn{
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom: 20px;
+    height:40px;
+    width: 120px;
+}
+
+
+#inpNewTask{
+    width:90%;
+    border-radius: 5px;
+    margin-bottom:20px;
+    height: 40px;
+}
+#heading{
+    margin-top:50px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+
+li{
+    font-size: 20px;
+    width:80%;
+    list-style-type: square;
+    color:chartreuse;
+}
+
+li.disabled{
+    text-decoration: line-through;
+    color:gray;
+}

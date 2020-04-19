@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2 align="center" id="heading">Todo List</h2>
+    <div class="container pt-5">
+        
+        <div class="row">
+            <div class="col-12 col-lg-6 col-sm-12 ">
+                <input id="inpNewTask" placeholder="Enter the New Task">
+            </div>
+
+            <div class="col-12 col-lg-6 col-sm-12">
+                <div class="row">
+                    <div class="col-6 col-lg-3 col-sm-6">
+                        <button id="btnAdd" class="btn btn-success" ><i class="fa fa-plus-square" ></i> Add</button>
+                    </div>
+                    <div class="col-6 col-lg-3 col-sm-6">
+                        <button id="btnReset" class="btn btn-danger"><i class="fa fa-eraser"></i> Reset</button>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-6 col-lg-3 col-sm-6">
+                        <button id="btnSort" class="btn btn-info"><i class="fa fa-sort" ></i> Sort</button>
+                    </div>
+                    <div class="col-6 col-lg-3 col-sm-6">
+                        <button id="btnClean" class="btn btn-warning"><i class="fa fa-trash" ></i> Clean</button>
+                    </div>
+                 </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <ul id="ulTaskList">
+                    
+                </ul>
+            </div>
+            
+
+            
+        </div>
+    </div>
+</body>
+</html>
